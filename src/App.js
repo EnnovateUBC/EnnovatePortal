@@ -67,6 +67,10 @@ class App extends React.Component {
 
         const footer = (
             <footer>
+                <div class="teacher-contact">
+                    <h2>Interested in bringing Ennovate to your class?</h2>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9aX22hfqjL20yaWa-DIx-5Vc9SYelcrWh_kBEoQDLfRNRGw/viewform?usp=sf_link" target="_blank"><button class="teacher-button">CONTACT US</button></a>
+                </div>
                 <h2 class="wholesome-message" style={{fontWeight: "200"}}> Made with love from the Ennovate Team ♥</h2>
                 <div class="bottom-row">
                     <div class="social-media">
@@ -86,29 +90,67 @@ class App extends React.Component {
                 {header}
                 {mobileMenu}
                 <div class="hero" id="top">
-                    <img class="background-image" src={require("./assets/images/ENNOVATE_BACKGROUND.jpg")} alt="Background photo for UBC Ennovate"></img>
-                    <img class="background-mobile-image" src={require("./assets/images/ENNOVATE-MOBILE-BACKGROUND.jpg")} alt="Background photo for UBC Ennovate"></img>
-                    <div class="center-top-text">Welcome to</div>
-                    <div class="center-Ennovate">E N N O V A T E</div>
+                    <div class="image-container"><img class="background-image" src={require("./assets/images/Banner.png")} alt="Background photo for UBC Ennovate"></img></div>
+                    {/* <img class="background-mobile-image" src={require("./assets/images/ENNOVATE-MOBILE-BACKGROUND.jpg")} alt="Background photo for UBC Ennovate"></img> */}
+                
+                    <div class="logo-and-headertext">
+                        <div class="center-Ennovate">ENNOVATE</div>
+                        <img class="textheaderlogo" src={require("./assets/images/ENNOVATE-W.png")} alt="The logo for UBC Ennovate" ></img>
+                    </div>
                 </div>
 
                 <div class="introduction">
-                    <h1 class="intro-header"><strong>Who are we?</strong></h1>
+                    <h1 class="intro-header">About Us</h1>
                     <p class="blurb">Ennovate is an intensive, 4 month entrepreneurial education project that focuses on empowering high school students through interactive workshops that help students develop a portfolio of fundamental business skills and a variety of soft skills. Under the support and guidance of the Ennovate team, students participating in the Ennovate program will create a mini social-enterprise that addresses a pressing social or environmental concern, replicating that of a business that would thrive in the real world. At the very end of the program, students will pitch their developed businesses to a panel of industry professionals, showcasing all of their hard work.</p>
                 </div>
 
                 <div class="introduction">
-                    <h1 class="intro-header"><strong>What is Enactus UBC?</strong></h1>
+                    <h1 class="intro-header">About Enactus UBC</h1>
                     <p class="blurb">Enactus is a global, student-led organization dedicated to enacting positive social change through the lens of entrepreneurship.
              We crave to see improvements in the community, and are passionate facilitators who help make them happen. We know that together, we can and will make a 
-             difference this year and in future years to come.  <a href="https://www.enactusubc.ca/" target="_blank" style={{color: "#000000", textDecoration: "underline"}}><b>Enactus UBC</b></a> is home to a team of over 100 students who collaborate to develop unique projects to serve our campus and community, 
+             difference this year and in future years to come.  <a href="https://www.enactusubc.ca/" target="_blank" style={{color: "#264080", textDecoration: "underline"}}><b>Enactus UBC</b></a> is home to a team of over 100 students who collaborate to develop unique projects to serve our campus and community, 
              further driving the Enactus mission.
                     </p>
 
-                    <h1 class="intro-header">Last year...</h1>
+
                 </div>
 
-                <div class="semester-stats">
+
+                <div class="introduction">
+                    <h1 class="intro-header">Impact</h1>
+                    <div class="impact-boxes">
+                        <div class="impact-box">
+                            <div class="impact-textbox">
+                                <h3 class="impactText">Directly <br></br> impacted</h3>
+                                <h2 class="impact-highlight">1000</h2>
+                                <h3 class="impactText">high school <br></br>students</h3>
+                            </div>
+                        </div>
+                        <div class="impact-box">
+                        <div class="impact-textbox">
+                            <h3 class="impactText">Generating over <span class="yellow-highlight">$8000</span> in net income from <span class="yellow-highlight">26</span> student-led businesses</h3>
+                        </div>
+                        </div>
+                        <div class="impact-box">
+                            <div class="impact-textbox">                            
+                                <h3 class="impactText">Influencing <br></br> over</h3>
+                                <h2 class="impact-highlight">2000</h2>
+                                <h3 class="impactText">members in our community, <br></br>across <span class="yellow-highlight">5 cities</span>
+                                </h3>
+                            </div>
+
+
+                        </div>
+
+                        
+                    
+                    </div>
+                    
+
+
+                </div>
+
+                {/* <div class="semester-stats">
                     <div class="semester-stat">
                         <div class="big-number">26</div>
                         <div class="stat">school businesses</div>
@@ -128,12 +170,9 @@ class App extends React.Component {
                         <div class="big-number">$6,825.12</div>
                         <div class="stat">in net income for schools</div>
                     </div>
-                </div>
+                </div> */}
 
-                <div class="teacher-contact">
-                    <h2>Interested in bringing Ennovate to your class?</h2>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9aX22hfqjL20yaWa-DIx-5Vc9SYelcrWh_kBEoQDLfRNRGw/viewform?usp=sf_link" target="_blank"><button class="teacher-button">CONTACT US</button></a>
-                </div>
+                
 
                 <div class="sponsors">
                     <h1 class="sponsor-header"><strong>Affiliated with...</strong></h1>
