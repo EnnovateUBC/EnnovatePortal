@@ -192,308 +192,289 @@ class App extends React.Component {
                 {mobileMenu}
                 <div class="team-members section">
                     <div class="member block">
-                        <h1 class="person-name">Tiya Tanaka</h1>
+                        <h1 class="person-name">Arisha Ahmed</h1>
                         <p class="person-title">Project Director</p>
-                        <p class="person-email">tanakatiya@gmail.com</p>
+                        <p class="person-email">arisha.ahmed03@gmail.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Tiya-Tanaka.jpg")}></img>
+                        <img class="person-img" src={require("./assets/team-members/Ahmed_Arisha_ProjectDirector.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+        
+                    <div class="member block">
+                        <h1 class="person-name">Khushi Dhand</h1>
+                        <p class="person-title">Project Director</p>
+                        <p class="person-email">dhandkhushi07@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Dhand_Khushi_ProjectDirector.png")}
+                        ></img>
+                    </div>
+        
+                    <div class="member block">
+                        <h1 class="person-name">Emily Chu</h1>
+                        <p class="person-title">Social Media Manager</p>
+                        <p class="person-email">emily.chu1138@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Chu_Emily_SocialMediaManager.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
 
                     <div class="member block">
-                        <h1 class="person-name">Euna Ao</h1>
-                        <p class="person-title">Project Director</p>
-                        <p class ="person-email">a.euna939@gmail.com</p>
+                        <h1 class="person-name">Audrey Rosyadi</h1>
+                        <p class="person-title">Marketing Manager</p>
+                        <p class="person-email">audreynnr@gmail.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Euna-Ao.jpg")}></img>
+                        <img class="person-img" src={require("./assets/team-members/Rosyadi_Audrey_MarketingManager.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Newgen Bao</h1>
+                        <p class="person-title">Internal Manager</p>
+                        <p class="person-email">newgen2.0b@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Bao_Newgen_InternalManager.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Jonathan Li</h1>
+                        <p class="person-title">External Manager</p>
+                        <p class="person-email">lijonathan2425@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Li_Jonathan_ExternalManager.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Sammie Ocampo</h1>
+                        <p class="person-title">Mentorship Manager</p>
+                        <p class="person-email">ocamposofia221@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Ocampo_Sammie_MentorshipManager.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Austin Cu</h1>
+                        <p class="person-title">Mentorship Manager</p>
+                        <p class="person-email">austincu0000@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Cu_Austin_MentorshipManager.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
 
                     <div class="member block">
                         <h1 class="person-name">Topher So</h1>
                         <p class="person-title">Logistics Manager</p>
-                        <p class ="person-email">topherhyso@gmail.com</p>
+                        <p class="person-email">topherhyso@gmail.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Topher-So.jpg")}></img>
+                        <img class="person-img" src={require("./assets/team-members/So_Topher_LogisticsAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
 
-                    <div class="member block">
-                        <h1 class="person-name">Patrick Kim</h1>
-                        <p class="person-title">Logistics Manager</p>
-                        <p class ="person-email">patrickkim0606@gmail.com</p>
-
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Patrick-Kim.jpg")}></img>
-                    </div>
-
-                    <div class="member block">
-                        <h1 class="person-name">Arisha Ahmed</h1>
-                        <p class="person-title">Mentorship Manager</p>
-                        <p class ="person-email">arisha.ahmed03@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Arisha.jpg")}></img>
-                    </div>
-
-                    <div class="member block">
-                        <h1 class="person-name">Carina Koo</h1>
-                        <p class="person-title">Internal Manager</p>
-                        <p class ="person-email">ko0carina@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Carina-Koo.png")}></img>
-                    </div>
-
-                    <div class="member block">
-                        <h1 class="person-name">Melissa Nguyen</h1>
-                        <p class="person-title">External Manager</p>
-                        <p class ="person-email">melissamhnguyen@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Melissa-Nguyen.jpeg")}></img>
-                    </div>
-
-                    <div class="member block">
-                        <h1 class="person-name">Ashley Liu</h1>
-                        <p class="person-title">External Manager</p>
-                        <p class ="person-email">ashleyliu0209@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Ashley-Liu.jpg")}></img>
-                    </div>
-
-                    <div class="member block">
-                        <h1 class="person-name">Kevin Gu</h1>
-                        <p class="person-title">Technology Manager</p>
-                        <p class ="person-email">kevinxygu@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Kevin-photo.jpg")}></img>
-                    </div>
-
-
-                    <div class="member block">
-                        <h1 class="person-name">Kimi Ho</h1>
-                        <p class="person-title">Content Creation Manager</p>
-                        <p class ="person-email">hokimi04084@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Kimi-Ho.jpeg")}></img>
-                    </div>
-
-                    <div class="member block">
-                        <h1 class="person-name">Khushi Dhand</h1>
-                        <p class="person-title">Marketing Manager</p>
-                        <p class ="person-email">dhandkhushi07@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Khushi-Dhand.jpg")}></img>
-                    </div>
-
-                    <div class="member block">
-                        <h1 class="person-name">Amanda Sam</h1>
-                        <p class="person-title">Ennovate Advisor</p>
-                        <p class ="person-email">amandasam1503@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Amanda-Sam.jpg")}></img>
-                    </div>
-
-                    <div class="member block">
-                        <h1 class="person-name">Ryu Watanabe</h1>
-                        <p class="person-title">Ennovate Advisor</p>
-                        
-                        <p class ="person-email">ryujwatanabe@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Ryu-Watanabe.jpg")}></img>
-                    </div>
-                    <div class="member block">
-                        <h1 class="person-name">Stephanie Cao</h1>
-                        <p class ="person-email">stephmimi27@gmail.com</p>
-                        <p class="person-title">Technology Associate</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Stephanie-Cao.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">Jay Park</h1>
-                        <p class="person-title">Technology Associate</p>
-                        <p class ="person-email">jayparkcollege@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Jay-Park.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">David Kou</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">daavidkou@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/David-Kou.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">Emily Chu</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">emily.chu1138@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Emily-Chu.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">Felix Li</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">felixlzz@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Felix-Li.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">Alston Hsu</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">alstonhsu88@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Alton-Hsu.PNG")}></img>
-                    </div>
-                    <div class="member block">
-                        <h1 class="person-name">Austin Cu</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">austincu0000@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Austin-Cu.PNG")}></img>
-                    </div> 
                     <div class="member block">
                         <h1 class="person-name">Christopher Le</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">chrisle8a@gmail.com</p>
+                        <p class="person-title">Logistics Manager</p>
+                        <p class="person-email">chrisle8a@gmail.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Chris-Le.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">Curtis Yang</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">cyangg004@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Curtis-Yang.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">Garrett Chu</h1>
-                        <p class="person-title">Internal Associate</p>
-                        <p class ="person-email">garrettchu5732@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Garrett-Chu.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">Hannah Azad</h1>
-                        <p class="person-title">Marketing Associate</p>
-                        <p class ="person-email">hannahazad@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Hannah-Azad.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">Jenny Lan</h1>
-                        <p class="person-title">Internal Associate</p>
-                        <p class ="person-email">xjennylan@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Jenny-Lan.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">Jonathan Li</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">lijonathan2425@gmail.com</p>
-                        
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Jonathan-Li.PNG")}></img>
-                    </div> 
-                    <div class="member block">
-                        <h1 class="person-name">Jose Pablo Villagomez</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">josepablovipe@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Jose-Pablo.PNG")}></img>
-                    </div>
-                    <div class="member block">
-                        <h1 class="person-name">Kesar Mehta</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">kesarmehta7104@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Kesar-Mehta.PNG")}></img>
-                    </div>
-                    <div class="member block">
-                        <h1 class="person-name">Joanne Chung</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">jchungy12345@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Joanne-Chung.PNG")}></img>
-                    </div>
-                    <div class="member block">
-                        <h1 class="person-name">Kelly Fang</h1>
-                        <p class="person-title">Marketing Associate</p>
-                        <p class ="person-email">kellyf1808@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Kelly-Fang.PNG")}></img>
-                    </div>
-                
-                    <div class="member block">
-                        <h1 class="person-name">Lucy Zhu</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">lucy.xyzhu@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Lucy-Zhu.PNG")}></img>
-                    </div>
-                    <div class="member block">
-                        <h1 class="person-name">Linh Vu</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">vu203521@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Linh-Vu.PNG")}></img>
-                    </div>
-                    <div class="member block">
-                        <h1 class="person-name">Olivia Chung</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">oliviajungg@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Olivia Chung.PNG")}></img>
-                    </div>
-                    <div class="member block">
-                        <h1 class="person-name">Paige Bindley</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">paigebindley@gmail.com</p>
-                        <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Paige-Bindley.PNG")}></img>
+                        <img class="person-img" src={require("./assets/team-members/Le_Christopher_LogisticsManager.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
 
                     <div class="member block">
-                        <h1 class="person-name">Rawan Ahmed</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">rawanjahmed@gmail.com</p>
+                        <h1 class="person-name">Reese Acorn</h1>
+                        <p class="person-title">Finance Manager</p>
+                        <p class="person-email">reeseacorn2004@icloud.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Rawan-Ahmad.PNG")}></img>
+                        <img class="person-img" src={require("./assets/team-members/Acorn_Reese_FinanceManager.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
+
                     <div class="member block">
-                        <h1 class="person-name">Reagan Leung</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">reaganleung14@gmail.com</p>
+                        <h1 class="person-name">Tiffany Duong</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">tiffanyduong35@gmail.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Reagan-Leung.PNG")}></img>
+                        <img class="person-img" src={require("./assets/team-members/Duong_Tiffany_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
+
                     <div class="member block">
-                        <h1 class="person-name">Shiv Kala</h1>
-                        <p class="person-title">Project Associate</p>
-                        <p class ="person-email">shivkala12@gmail.com</p>
+                        <h1 class="person-name">Jasmeen Sidhu</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">jasmeensidhu2003@gmail.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Shiv-Kala.PNG")}></img>
+                        <img class="person-img" src={require("./assets/team-members/Sidhu_Jasmeen_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
+
                     <div class="member block">
-                        <h1 class="person-name">Penny Pang</h1>
+                        <h1 class="person-name">Yasmeen Al-Issa</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">a.yasmeen3542@qmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Al-Issa_Yasmeen_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    {/* <div class="member block">
+                        <h1 class="person-name">Selina Kong</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">selinakong0406@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Kong_Selina_GeneralProjectAssociate.jpg")}></img>
+                    </div> */}
+
+                    <div class="member block">
+                        <h1 class="person-name">Amy You</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">amyyou2316@qmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/You_Amy_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Gabriel Alcayde</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">gabrielcalcayde@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Alcayde_Gabriel_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -40px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Emilee Wu</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">Emileewu0616@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Wu_Emilee_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Benjamin Yen</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">yenbenjamin263@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Yen_Benjamin_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Abigail Crawford</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">abigail.crawford.004@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Crawford_Abigail_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Tyler Laude</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">tylerlaude05@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Laude_Tyler_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Kan Masujima</h1>
+                        <p class="person-title">General Project Associate</p>
+                        <p class="person-email">kanyamame.316@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Masujima_Kan_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Curtis Yang</h1>
                         <p class="person-title">Logistics Associate</p>
-                        <p class ="person-email">pennypang12@gmail.com</p>
+                        <p class="person-email">cyangg004@gmail.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Penny-Pang.PNG")}></img>
+                        <img class="person-img" src={require("./assets/team-members/Yang_Curtis_LogisticsAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
+
                     <div class="member block">
-                        <h1 class="person-name">Sofia/Sammie Ocampo</h1>
+                        <h1 class="person-name">Janine Jiao</h1>
+                        <p class="person-title">Logistics Associate</p>
+                        <p class="person-email">jiaojanine@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Jiao_Janine_LogisticsAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Ken Wang</h1>
                         <p class="person-title">Mentorship Associate</p>
-                        <p class ="person-email">ocamposofia221@gmail.com</p>
+                        <p class="person-email">jockerken2005@gmail.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Sammie-Ocampo.PNG")}></img>
+                        <img class="person-img" src={require("./assets/team-members/Wang_Ken_MentorshipAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
+
                     <div class="member block">
-                        <h1 class="person-name">Steven Vo</h1>
-                        <p class="person-title">Logistics Associate</p>
-                        <p class ="person-email">stevenvo741@gmail.com</p>
+                        <h1 class="person-name">Alyanna Sia</h1>
+                        <p class="person-title">Mentorship Associate</p>
+                        <p class="person-email">alyannatansia@gmail.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Steven-Vo.PNG")}></img>
+                        <img class="person-img" src={require("./assets/team-members/Sia_Alyanna_MentorshipAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Nicholas Wong</h1>
+                        <p class="person-title">External Associate</p>
+                        <p class="person-email">nicholaswongsfx@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Wong_Nicholas_ExternalAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Sarah Wang</h1>
+                        <p class="person-title">External Associate</p>
+                        <p class="person-email">ssarahwwang@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Wang_Sarah_ExternalAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Megan Wu</h1>
+                        <p class="person-title">Internal Associate</p>
+                        <p class="person-email">meganwu.van@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Wu_Megan_InternalAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Jessica Cheung</h1>
+                        <p class="person-title">Marketing Associate</p>
+                        <p class="person-email">jessicacheung5@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Cheung_Jessica_MarketingAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -80px' }}></img>
+                    </div>
+
+                    <div class="member block">
+                        <h1 class="person-name">Laura Li</h1>
+                        <p class="person-title">Marketing Associate</p>
+                        <p class="person-email">lauraligg86@gmail.com</p>
+                        <div class="person-gradient"></div>
+                        <img class="person-img" src={require("./assets/team-members/Li_Laura_MarketingAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div>
+
+                        
                 </div>
                 {footer}
             </div>
         )
-
+        
         const FinalCompPage = (
             <div class="finalComp">
                 {header}
