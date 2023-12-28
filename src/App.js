@@ -317,13 +317,14 @@ class App extends React.Component {
                         style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
                     </div>
 
-                    {/* <div class="member block">
+                    <div class="member block">
                         <h1 class="person-name">Selina Kong</h1>
                         <p class="person-title">General Project Associate</p>
                         <p class="person-email">selinakong0406@gmail.com</p>
                         <div class="person-gradient"></div>
-                        <img class="person-img" src={require("./assets/team-members/Kong_Selina_GeneralProjectAssociate.jpg")}></img>
-                    </div> */}
+                        <img class="person-img" src={require("./assets/team-members/Kong_Selina_GeneralProjectAssociate.jpg")}
+                        style={{ objectFit: 'cover', objectPosition: 'center -30px' }}></img>
+                    </div> 
 
                     <div class="member block">
                         <h1 class="person-name">Amy You</h1>
