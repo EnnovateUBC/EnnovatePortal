@@ -482,7 +482,7 @@ class App extends React.Component {
                 {mobileMenu}
                 <FinalCompCounter />
 
-                <h1 class="final-comp-blurb">Until final comp on May. 21, 2023! Check the portal when that happens</h1>
+                <h1 class="final-comp-blurb">Until final comp on Jan. 27, 2024! Check the portal when that happens</h1>
 
 
                 <div class="ennovate-sleep">

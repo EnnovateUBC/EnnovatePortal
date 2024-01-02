@@ -12,6 +12,8 @@ import XPTidalRings from "../assets/XPTidalRings.jpg";
 import XPWaves from "../assets/XPWaves.jpg";
 import XPUnitee from "../assets/XPUnitee.png";
 import XPOsmia from "../assets/XPOsmia.png";
+import PresentationRubric from "../assets/images/PresentationRubric.png"
+import ProposalRubric from "../assets/images/ProposalRubric.png"
 
 
 class Resources extends React.Component {
@@ -54,6 +56,13 @@ class Resources extends React.Component {
 
                     <h2 class="heading">Program Package</h2>
                     <a href="https://drive.google.com/file/d/1DnSlN-a6IfpER8xEExvxhoeA-87lXaTb/view?usp=sharing" target="_blank"><img src={ProgramPackage} class="program-package"></img></a>
+
+                    <h2 class="heading">Presentation Rubric</h2>
+                    <a href="https://drive.google.com/file/d/1PHqs_zAffWi7i40hnTNZHVsjecjeqvbm/view?usp=sharing" target="_blank"><img src={PresentationRubric} class="program-package"></img></a>
+
+                    <h2 class="heading">Proposal Rubric</h2>
+                    <a href="https://drive.google.com/file/d/1mqgdP36h2_UElOx8Z5BaP-JSBPLs9VCa/view?usp=sharing" target="_blank"><img src={ProposalRubric} class="program-package"></img></a>
+
 
                     {/* <h2 class="heading">Grading Rubric</h2>
                     <a href="https://drive.google.com/file/d/1F6Kv1okCEdiH1qpFKfHGnhp6to85HD1x/view?usp=sharing" target="_blank"><img src={Rubric} class="program-package"></img></a> */}
